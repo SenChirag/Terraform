@@ -1,4 +1,21 @@
-.env
-.terraform.lock.hcl
-terraform.tfstate.backup
+# Ignore environment file in EC2-AWS directory
+/EC2-AWS/.env
+
+# Ignore Terraform lock file in EC2-AWS directory
+/EC2-AWS/.terraform.lock.hcl
+
+# Ignore Terraform state backup file in EC2-AWS directory
+/EC2-AWS/terraform.tfstate.backup
+
+# Ignore Terraform working directory
 .terraform
+
+# Ignore Terraform lock file in web-deploy directory
+/web-deploy/.terraform.lock.hcl
+
+# Ignore Terraform state backup file in web-deploy directory
+/web-deploy/terraform.tfstate.backup
+
+/web-deploy/terraform.tfstate
+
+/EC2-AWS/terraform.tfstate.backup
